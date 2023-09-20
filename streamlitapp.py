@@ -7,20 +7,20 @@ Original file is located at
     https://colab.research.google.com/drive/1muQ9Nsg6bTNC-4FjdpT8W4uxT2aZyNa-
 """
 
-import streamlit as st
-import torch
-import pickle
-from transformers import (
-    AutoModelForCausalLM,
-    AutoTokenizer,
-    BitsAndBytesConfig,
-    HfArgumentParser,
-    TrainingArguments,
-    pipeline,
-    logging,
-)
-from peft import LoraConfig, PeftModel
-import numpy as np
+# import streamlit as st
+# import torch
+# import pickle
+# from transformers import (
+#     AutoModelForCausalLM,
+#     AutoTokenizer,
+#     BitsAndBytesConfig,
+#     HfArgumentParser,
+#     TrainingArguments,
+#     pipeline,
+#     logging,
+# )
+# from peft import LoraConfig, PeftModel
+# import numpy as np
 
 # The model that you want to train from the Hugging Face hub
 model_name = "NousResearch/Llama-2-7b-chat-hf"
