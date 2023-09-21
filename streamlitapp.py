@@ -44,7 +44,7 @@ device_map = {"": 0}
 st.title("LlaMA Chatbot")
 
 # Sidebar
-st.write("Welcome to the Chatbot! One place solution for all your queries! Satisfy your hunger for information by asking the right question :)")
+st.write("Welcome to the Chatbot! One place solution for all your queries! Satisfy your hunger for information by asking the right questions :)")
 
 with st.form('my_form'):
     text = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
